@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+{
+  "name": "",
+  "version": "",
+  "description": "",
+  "main": [ "js/file.js" ],
+  "devDependencies": {
+    "package": "version"
+  },  
+  "dependencies": {
+    "package": "version" 
+  },
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": ["kw1"],
+  "authors": ["first last <email>"],
+  "license": "MIT",
+  "ignore": ["**/.*", "node_modules", "bower_components", "test", "tests"]
+}
+
+]]></content>	
+	<tabTrigger>bower_boilerplate</tabTrigger>	
+</snippet>

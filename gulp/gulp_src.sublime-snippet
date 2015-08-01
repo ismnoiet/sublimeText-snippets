@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+gulp.task('${1:taskName}',${2:["dependencies"]});
+]]></content>
+	<tabTrigger>gulp_task</tabTrigger>
+</snippet>

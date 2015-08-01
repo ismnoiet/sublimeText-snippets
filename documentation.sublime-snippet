@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * ${1:[FILENAME.EXTENSION]}
+ * http://${2:[WEBSITE FOR THE FILENAME]}
+ *
+ * Licensed under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * Copyright ${3:[YEAR]}, ${4:[COMPANY]}
+ * http://${5:[COMPANY WEBSITE]}
+ */
+]]></content>	
+	<tabTrigger>documentation</tabTrigger>	
+</snippet>

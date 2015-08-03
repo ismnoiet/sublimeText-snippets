@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+// concat = require('gulp-concat');
+gulp.task('${1:concatenation}',function()\{
+	gulp.src(${2:['file1','file2']})
+		.pipe(concat('${3:destination file}'))
+		.pipe(gulp.dest('${4:destination directory}'))
+	${5:}
+\});
+${6:}
+
+]]></content>
+	<tabTrigger>gulp_concatenation</tabTrigger>
+</snippet>

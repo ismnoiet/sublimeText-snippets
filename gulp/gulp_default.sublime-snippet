@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+// gulp = require('gulp');
+gulp.task('default',${1:function()\{
+
+\}});
+${2:}
+
+]]></content>
+	<tabTrigger>gulp_default</tabTrigger>
+</snippet>

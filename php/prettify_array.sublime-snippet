@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+echo '<pre>'.print_r(${1:\$arr},true).'</pre>';
+${2:}
+]]></content>	
+	<tabTrigger>prettify_array</tabTrigger>	
+</snippet>

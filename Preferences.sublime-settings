@@ -1,0 +1,3 @@
+[
+{ "keys": ["ctrl+s", "ctrl+b"], "command": "toggle_side_bar" }
+]

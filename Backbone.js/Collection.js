@@ -4,5 +4,5 @@ Backbone.Collection.extend(\{
     model:${1:},${2:}
 \});${3:}
 ]]></content>
-	<tabTrigger>bncollection</tabTrigger>
+	<tabTrigger>bn_collection</tabTrigger>
 </snippet>

@@ -2,5 +2,5 @@
 	<content><![CDATA[
 Backbone.Router.extend(\{${1}\});${2:}
 ]]></content>
-	<tabTrigger>bnrouter</tabTrigger>
+	<tabTrigger>bn_router</tabTrigger>
 </snippet>

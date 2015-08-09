@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+Backbone.Collection.extend({
+	${1:model}:${2:myModel}
+\});
+${2:}
+
+]]></content>	
+	<tabTrigger>backbonejs_collection</tabTrigger>	
+</snippet>

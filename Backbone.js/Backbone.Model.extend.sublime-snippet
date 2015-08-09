@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+Backbone.Model.extend({
+	defaults:${1:function()\{
+		return \{${2:}\};
+	\}}
+})
+]]></content>	
+	<tabTrigger>backbonejs_model</tabTrigger>	
+</snippet>

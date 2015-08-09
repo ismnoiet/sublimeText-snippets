@@ -8,11 +8,6 @@ var m1 = new ${1:app}.model(),
     vs = new ${1:app}.views({collection:c});
 
 
-// add routers
-var router = new ${1:app}.router();
-Backbone.history.start();
-
-
 ]]></content>	
 	<tabTrigger>backbonejs_app</tabTrigger>	
 </snippet>

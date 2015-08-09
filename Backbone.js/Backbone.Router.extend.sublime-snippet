@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+app.router = Backbone.Router.extend(\{
+  routes:\{   
+    '':'index',
+    'show/:id/:name': 'show',
+    'download/*random': 'download' 
+  \},  
+  'index':function()\{
+    console.log('you are in the index page ');
+  \},
+  'show':function(id)\{
+    console.log('you are in a page with single parameter   ' + id);    
+  \},
+  'download':function(random)\{
+    console.log('this is n argument to capture :'+random);
+  \}
+\});
+
+var r =  new app.router();
+Backbone.history.start();
+
+
+
+
+]]></content>	
+	<tabTrigger>backbonejs_router</tabTrigger>	
+</snippet>

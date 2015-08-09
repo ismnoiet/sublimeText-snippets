@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-app.router = Backbone.Router.extend(\{
+Backbone.Router.extend(\{
   routes:\{   
     '':'index',
-    'show/:id/:name': 'show',
+    'show/:id': 'show',
     'download/*random': 'download' 
   \},  
   'index':function()\{

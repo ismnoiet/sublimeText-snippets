@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+
+var m1 = new ${1:app}.model(),
+	m2 = new ${1:app}.model(),
+    v  = new ${1:app}.view({model:m1}),
+    c  = new ${1:app}.collection([m1,m2]),
+    vs = new ${1:app}.views({collection:c});
+
+
+]]></content>	
+	<tabTrigger>backbonejs_app</tabTrigger>	
+</snippet>

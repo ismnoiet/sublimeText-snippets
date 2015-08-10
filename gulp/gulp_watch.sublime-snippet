@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+
+gulp.task('${1:taskName}',function()\{
+	gulp.watch('${2:src}',function(event)\{
+		${3:console.log('type of watched event  : ' + event.type);
+		console.log('for : ' + event.path);
+		}
+	\});
+\});
+
+
+]]></content>
+
+	<tabTrigger>gulp_watch</tabTrigger>
+	
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+//uglify = require('gulp-uglify');
+gulp.task('${1:compress}', function() {
+  return gulp.src('${2:file or array}')
+    .pipe(uglify())
+    .pipe(gulp.dest('${3:destination}'));${4:}
+});
+
+]]></content>
+	
+	<tabTrigger>gulp_uglify</tabTrigger>	
+</snippet>

@@ -1,5 +1,8 @@
 <snippet>
 	<content><![CDATA[
+// verify that bower.json exists and has dep packages 
+// in order to use  bootstrap.css add the dist/css/bootstrap.min.css to the attribute main that is located in  bootstrap/bower.json file  
+
 //var wiredep = require('wiredep').stream;
 gulp.task('${1:bower}',function(){
 	

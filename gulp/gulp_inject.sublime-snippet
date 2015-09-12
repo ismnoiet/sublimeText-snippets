@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+//var inject = require('gulp-inject');
+gulp.task('${1:inject}',function(){
+
+	return gulp.src(${2:config.index})
+			   .pipe(inject(gulp.src(${3:config.jsFiles})))
+			   .pipe(gulp.dest(${4:'./dest'}))
+			   
+});
+
+]]></content>
+	
+	<tabTrigger>gulp_inject</tabTrigger>	
+</snippet>

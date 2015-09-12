@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+//var wiredep = require('wiredep').stream;
+gulp.task('${1:bower}',function(){
+	
+	return gulp.src('${2:index.html}')
+			   .pipe(wiredep())
+			   .pipe(gulp.dest('${3:./dest}'));
+
+});
+
+
+]]></content>
+	
+	<tabTrigger>gulp_bower</tabTrigger>	
+</snippet>

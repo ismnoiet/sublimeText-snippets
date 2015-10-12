@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+// sudo npm install gulp-svgmin --save-dev
+// var svgmin = require('gulp-svgmin'); 
+gulp.task('${1:svg}',function()\{
+   gulp.src('${2:sleep.svg}')
+       .pipe(svgmin())
+       .pipe(gulp.dest('${3:./out}'));
+\});
+]]></content>
+	<tabTrigger>gulp_svg</tabTrigger>	
+</snippet>

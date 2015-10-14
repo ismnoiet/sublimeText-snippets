@@ -8,7 +8,7 @@ gulp.task('${1:concatenationTask}',function()\{
 
 \});
 
-${6:}
+${5:}
 
 ]]></content>
 	<tabTrigger>gulp_concatenation</tabTrigger>

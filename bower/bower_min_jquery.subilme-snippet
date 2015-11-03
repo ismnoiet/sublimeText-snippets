@@ -2,5 +2,5 @@
     <content><![CDATA[
 <script  src="${1:.}/bower_components/jquery/dist/jquery.min.js"></script>
 ]]></content>    
-    <tabTrigger>bower_jquery_min</tabTrigger>    
+    <tabTrigger>bower_min_jquery</tabTrigger>    
 </snippet>

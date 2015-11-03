@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+<script  src="${1:.}/bower_components/jquery/dist/jquery.js"></script>
+]]></content>    
+    <tabTrigger>bower_jquery</tabTrigger>    
+</snippet>

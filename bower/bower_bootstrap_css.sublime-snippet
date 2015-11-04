@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+<link rel="stylesheet"  src="${1:.}/bower_components/bootstrap/dist/css/bootstrap.css">
+]]></content>    
+    <tabTrigger>bower_bootstrap_css</tabTrigger>    
+</snippet>

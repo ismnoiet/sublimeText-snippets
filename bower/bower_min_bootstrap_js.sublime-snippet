@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+<script src="${1:.}/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+]]></content>    
+    <tabTrigger>bower_min_bootstrap_js</tabTrigger> 
+</snippet>

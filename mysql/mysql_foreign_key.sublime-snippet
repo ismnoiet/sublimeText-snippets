@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+		alter table ${1:TABLENAME} add constraint ${2:FOREIGN_KEY_NAME} foreign key(${3:ATTRIBUTE}) references ${4:table1}(${5:ATTRIBUTE});
+]]></content>	
+	<tabTrigger>mysql_foreign_key</tabTrigger>	
+</snippet>

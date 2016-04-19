@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+'use strict'; 
+
+module.exports = function(grunt){
+	// 1- initialize configuration
+	grunt.initConfig({
+		${1:}
+	});
+
+	// 2- load grunt plugins 
+	  grunt.loadNpmTasks('${2:}');
+
+
+	// 3- register tasks
+	${3:}
+
+	// 4- finally don't forget to add the default task, to  kick things off.
+	grunt.registerTask('default',[other_tasks_here])
+
+};
+]]></content>
+	
+	<tabTrigger>grunt_init</tabTrigger>	
+</snippet>
+
+

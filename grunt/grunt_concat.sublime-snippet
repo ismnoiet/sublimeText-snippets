@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+concat: {
+    options: {
+      banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' +
+              '<%= grunt.template.today("yyyy-mm-dd") %> */',
+      separator: '${1:;}',
+      ${2:}
+    },
+    dist: {
+      src: ['${3:src/file1.js}'],
+      dest: '${4:dist/built.js}',
+    },
+    ${5:}
+},
+]]></content>
+	
+	<tabTrigger>grunt_concat</tabTrigger>	
+</snippet>
+
+

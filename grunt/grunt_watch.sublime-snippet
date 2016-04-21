@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+watch: {
+  scripts: {
+    files: ['**/*.js'],
+    tasks: ['task1'],
+    options: {
+      spawn: false,
+    },
+  },
+},
+]]></content>
+	
+	<tabTrigger>grunt_watch</tabTrigger>	
+</snippet>

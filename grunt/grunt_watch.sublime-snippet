@@ -2,10 +2,10 @@
 	<content><![CDATA[
 watch: {
   scripts: {
-    files: ['**/*.js'],
-    tasks: ['task1'],
+    files: ['${1:**/*.js}'],
+    tasks: ['${2:task1}'],
     options: {
-      spawn: false,
+      ${3:spawn: false,}
     },
   },
 },

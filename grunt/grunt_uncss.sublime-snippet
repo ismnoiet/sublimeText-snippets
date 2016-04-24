@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+uncss: {
+  dist: {
+    files: {
+      'dist/css/out.css': ['app/index.html', 'app/about.html']
+    }
+  }
+}
+]]></content>
+	
+	<tabTrigger>grunt_uncss</tabTrigger>	
+</snippet>

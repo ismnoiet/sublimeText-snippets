@@ -9,7 +9,7 @@ module.exports = function(grunt){
 	});
 
 	// 2- load grunt plugins 
-	  grunt.loadNpmTasks('${2:}');
+	  grunt.loadNpmTasks('${2:concat}');
 
 
 	// 3- register tasks

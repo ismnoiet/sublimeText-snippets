@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+{
+	"folders":
+	[
+		{
+			"path": ".",
+	        "follow_symlinks": true,	        	        
+	        "folder_exclude_patterns": ["bower_components", "node_modules"]					    
+		}
+	]
+}
+
+]]></content>
+	
+	<tabTrigger>sublime_project</tabTrigger>	
+</snippet>
